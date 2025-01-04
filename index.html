@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transportation and Trade Analysis</title>
+    <title>Shipment Flows</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,20 +44,35 @@ nav a:hover {
 }
 
         .container {
-            width: 80%;
-            min-height: 1000px;
+            max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            color: #444;
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
         }
-        p {
-            margin: 10px 0;
-            font-size: 18px;
+        .tabs button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .tabs button:hover, .tabs button.active {
+            background-color: #555;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
         }
         footer {
             text-align: center;
@@ -68,27 +84,296 @@ nav a:hover {
             width: 100%;
         }
     </style>
+    <script>
+        function showTab(tabId) {
+            const contents = document.querySelectorAll('.tab-content');
+            const buttons = document.querySelectorAll('.tabs button');
+            contents.forEach(content => content.classList.remove('active'));
+            buttons.forEach(button => button.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            document.querySelector(`button[data-tab="${tabId}"]`).classList.add('active');
+        }
+    </script>
 </head>
 <body>
     <header>
         <h1>Transportation and Trade Analysis</h1>
     </header>
-    <nav>
-        <a href="index.html">Introduction</a>
-        <a href="methodology.html">Methodology</a>
-        <a href="flows.html">Flows</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+        <nav>
+            <a href="index.html">Introduction</a>
+            <a href="methodology.html">Methodology</a>
+            <a href="flows.html">Flows</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+  
     <div class="container">
-        <h2>Introduction</h2>
-        <p>
-The document begins by introducing the scope and purpose of the study, which centers on analyzing the shipment flows involving Maryland as both an origin and destination point. It delves into the evolving dynamics of shipment volumes from the year 2018 to the projected year 2050. The introduction sets the stage for a detailed examination of how various commodities are transported in and out of Maryland, underpinning the broader economic and logistical implications for the state. By presenting data on total weight and distribution across different categories, the document aims to provide stakeholders with valuable insights into the shifting patterns of trade and transportation.
-The methodology section explains the analysis techniques used to compile the shipment records. This includes the categorization of flows into four primary types: total flows, domestic flows, export flows, and import flows, each further subdivided by specific criteria such as commodity type, destination, and origin. For Maryland, a detailed look at the origin-destination (O-D) flows provides a granular view of the shipment activities. These methodologies ensure a comprehensive understanding of the regional logistics and supply chain dynamics that influence the state’s economic landscape.
-In discussing total flows, the document highlights Maryland's significant increase in the total weight of shipments over the years. A projected rise from approximately 100 kilotons in 2018 to over 200 kilotons by 2050 underscores a robust growth trajectory. This growth is compared against other states such as Virginia, Pennsylvania, and Delaware, which exhibit relatively stable shipment weights throughout the same period. This comparison not only illustrates Maryland’s expanding logistical role but also situates it within the broader regional context.
-The document also focuses on the types of commodities involved in these shipments. Specific commodities such as gravel and natural gas show notable increases in shipment volumes, reflecting changes in industrial demand and energy consumption patterns. The analysis of commodity-specific trends provides insights into economic activities and their environmental and infrastructural implications. For instance, the increase in gravel shipments indicates booming construction activities, while fluctuations in natural gas shipments highlight shifts in energy supply and consumption dynamics.
-Finally, the introduction posits that this detailed analysis of shipment flows serves as a critical tool for policymakers, business leaders, and economic planners. By understanding the trends and patterns highlighted in the document, these stakeholders can better strategize for infrastructure development, economic investment, and environmental management. The document thus not only serves as a record of past and present activities but also as a predictive model for future logistical and economic developments in Maryland and the surrounding regions.
+        <h2>Flows</h2>
+        <div class="tabs">
+            <button class="active" data-tab="total-flows" onclick="showTab('total-flows')">Total Flows</button>
+            <button data-tab="domestic-flows" onclick="showTab('domestic-flows')">Domestic Flows</button>
+            <button data-tab="export-flows" onclick="showTab('export-flows')">Export Flows</button>
+            <button data-tab = "import-flows" onclick="showTab('import-flows')">Import Flows</button>
+        </div>
+        <div id="total-flows" class="tab-content active">
+            <h2>Total Flows</h2>
+            <section>
+                <h3>Maryland as Origin</h3>
+                <p>
+                    <strong>1. Maryland as Domestic Origin O-D FLOW</strong><br>
+                    This O-D flow graphically illustrates the extensive network of domestic trade routes across the United States, highlighting key transportation hubs and pathways. The visualization specifically emphasizes the significant role of Maryland as domestic origin in these networks, showcasing its connectivity to various regional markets through major logistic channels.
+                </p>
+                <p>
+                    <strong>2. Total Weight of Shipment by Domestic Destination and Year</strong><br>
+                    Maryland shows a significant increase in shipment weight, rising steadily from around 100 Ktons in 2018 to over 200 Ktons by 2050. In contrast, the other states represented on the graph—Virginia, Pennsylvania, Delaware, and others—display relatively stable shipment weights throughout the forecasted period, mostly hovering around or under 50 Ktons.
+                </p>
+                 
+    <!-- Figure 3 5: Add a container for the chart -->
+    <p><strong>Figure 3 5</strong> <br></p>
+    <div id="figure-3-5" style="width: 100%; height: 600px;">
+        <!-- Chart will be rendered here -->
+    </div>
+    
+    <!-- Add JavaScript to render the chart -->
+    <script>
+        // Fetch the data from the JSON file
+        fetch('./data/chart_data.json')
+            .then(response => response.json())
+            .then(chartData => {
+                const years = chartData.years;
+                const data = chartData.data;
 
-        </p>
+                // Prepare Plotly traces
+                const traces = data.map(item => ({
+                    x: years,
+                    y: item.tons,
+                    mode: 'lines+markers',
+                    name: item.state
+                }));
+
+                // Plot the chart
+                Plotly.newPlot('figure-3-5', traces, {
+                    title: 'Total Weight of Shipments from Maryland to Each State (2017-2050)',
+                    xaxis: { title: 'Year' },
+                    yaxis: { title: 'Total Tons (K)' },
+                    legend: { title: { text: 'Destination State' } }
+                });
+            });
+    </script>
+                
+                <p>
+                    <strong>3. Total Weight of Shipments by Commodity and Year</strong><br>
+                    “Gravel” shows a pronounced growth, increasing steadily from approximately 30 Ktons in 2018 to over 50 Ktons by 2050. The commodity "Natural Gas and other fossil products" exhibits a sharp fluctuation, peaking around 2022 before stabilizing. Other commodities such as "Nonmetallic Minerals" and "Foodstuffs" display moderate but steady growth throughout the period. Most other commodities maintain relatively consistent shipment weights, indicating stable demand.
+                </p>
+                <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
+            </section>
+            <section>
+                <h3>Maryland as Destination</h3>
+                <p>
+                    <strong>1.	Maryland as Destination O-D FLOW</strong><br>
+This map presents a detailed visualization of key trade routes emanating from Maryland, highlighting its strategic role in the domestic shipping infrastructure of the United States. The prominent orange lines trace the most significant routes linking Maryland to critical economic centers and ports along both the East and West Coasts, illustrating the state's vital contributions to the national logistics network. The concentration of routes in the eastern region underscores Maryland's connectivity and importance in facilitating commerce between the eastern seaboard and broader national markets.
+ </p>
+Figure 3 4  Maryland as Destination O-D Flow <br>
+
+<p>
+<strong>2.	Total Weight of Shipment by Domestic Origin and Year</strong><br>
+
+ 
+
+
+
+
+Among the states Maryland shows a pronounced upward trend, with shipments rising from around 100 Ktons in 2018 to an estimated 200 Ktons by 2050. Pennsylvania and Virginia also exhibit growth, but their increases are more modest compared to Maryland. Most other states, such as West Virginia, Delaware, New Jersey, and several others, maintain a relatively flat line throughout the period, indicating stable shipment weights. 
+ </p>
+Figure 3 6 Total Weight of Shipment by Commodity and Year <br>
+
+It highlights the growth trends in various commodities, with significant growth observed in "Gravel” and "Natural Gas and other fossil products" which both show a steep increase over the projected period. "Gravel" starts at approximately 35 Ktons in 2018 and reaches about 55 Ktons by 2050, while "Natural Gas" shows a rise from around 30 Ktons to nearly 40 Ktons. Coal is the only commodity that has the Negative trend where it decreased from 25Ktons to 10 Ktons. Other commodities such as "Nonmetallic minerals" also exhibit growth but at a more moderate pace. Conversely, most other product commodities maintain relatively stable shipment weights throughout the forecast period. 
+
+                </p>
+            </section>
+
+
+    
+        </div>
+        <div id="domestic-flows" class="tab-content">
+            <h2>Domestic Flows</h2>
+
+            <section>
+                <h3>Maryland as Origin</h3>
+                <p>
+                    <strong>1. Maryland as Domestic Origin O-D FLOW</strong><br>
+                    This O-D flow illustrates the intricate network of domestic shipping routes across the United States, with a special focus on Maryland as domestic origin as a crucial nexus. It clearly delineates the flow of goods from Maryland to various destinations across the country, emphasizing its strategic importance in national logistics and commerce. The orange lines signify major shipping routes originating from Maryland, underscoring its role as a key distribution center to both the East Coast and broader U.S. markets.
+                </p>
+                <p>
+                    <strong>2.Total weight of Shipments by Commodity and Year</strong><br>
+                    Gravel commodity exhibits a strong upward trend, rising from approximately 30 Ktons in 2018 to over 50 Ktons by 2050. In contrast, most other commodities such as Natural gas, Wood Products, Gasoline, and Cereal Grains remain relatively stable throughout the forecast period. 
+                </p>
+                <p><em>Figure 3.2 Total Weight of Shipment by Domestic Destination and Year</em></p>
+                <p>
+                    <strong>3.Total Weight of shipments of Domestic destination and Year</strong><br>
+                    The graph shows a significant upward trend for Maryland, which begins at about 100 Ktons in 2018 and rises steadily to reach nearly 180 Ktons by 2050. In stark contrast, most other states such as Virginia, Pennsylvania and Delaware maintain relatively flat shipment weights throughout the forecast period, all staying below 30 Ktons. 
+                </p>
+                <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
+            </section>
+            <section>
+                <h3>Maryland as Destination</h3>
+                <p>
+                    <strong>1.	Maryland as Domestic Destination O-D FLOW</strong><br>
+                    This O-D flow meticulously outlines the major domestic shipping routes stemming from Maryland, showcasing the state's central role as a logistical hub within the United States. The highlighted paths, particularly the vibrant orange lines, illustrate Maryland's extensive reach to critical markets across the nation, underscoring its significance in facilitating efficient goods movement coast to coast. The distribution of these routes’ points to Maryland's strategic geographical advantage and its contribution to strengthening the domestic supply chain.
+ </p>
+Figure 3 4  Maryland as Destination O-D Flow <br>
+
+<p>
+<strong>2. Total Weight of Shipments by Commodity and Year</strong><br>
+
+ 
+Figure 3 5 <br>
+
+
+The most prominent trends are seen in the categories of Gravel, Natural Gas and other fossil products, and Nonmetallic Mineral Products, which all show significant increases over the period. Gravel displays the steepest growth, starting from approximately 20K Ktons in 2010 and rising to about 60K Ktons by 2050. Natural Gas and other fossil products also show a substantial upward trajectory, growing from around 10K Ktons to approximately 50K Ktons in the same period. Nonmetallic Mineral Products follow a similar growth pattern but with slightly lower volumes, indicating strong and growing demand for these resources.
+<br>
+Mixed Freight and Other Foodstuffs exhibit moderate growth, while categories such as Waste/Scrap, Natural Sands, and Gasoline maintain relatively steady shipment weights over the years. The remaining categories show minimal fluctuation and maintain lower shipment volumes, suggesting stable but limited demand in these sectors. This graph is a valuable tool for analyzing trends in industrial demand and supply chain dynamics across various sectors over an extended period. </p>
+
+<p>
+    <strong>3.4.2.3	Total Weight of Shipments by Domestic Origin and Year</strong><br>
+    Notably, Maryland shows a significant upward trend, with shipment weights steadily increasing and reaching the highest levels among the states depicted by 2050. Pennsylvania and Virginia also exhibit steady, albeit less dramatic, increases in shipment volumes over the same period. Other states like Delaware, New Jersey, and Ohio maintain relatively flat trajectories with no significant growth in shipment weights.
+
+
+</p>
+                </p>
+            </section>
+
+        </div>
+        <div id="export-flows" class="tab-content">
+            <h2>Export Flows</h2>
+            <section>
+                <h3>5.1	MARYLAND AS DOMESTIC ORIGIN</h3>
+                <p>
+                    <strong>1.Maryland as Domestic Origin O-D FLOW</strong><br>
+                    This O-D flow displays a comprehensive global network, highlighting the extensive international connections facilitated by trade routes originating from the United States, with a focal point on Maryland. The vivid purple lines depict the diverse and complex web of routes that link Maryland to major economic centers worldwide, emphasizing its strategic importance in global commerce. This visualization underscores Maryland's role not only in domestic logistics but also in international trade, serving as a gateway for goods traveling to and from Europe, Asia, and beyond. Such networks are pivotal for the exchange of goods, services, and economic prosperity on a global scale.
+                </p>
+                <p>
+                    <strong>2. Total weight of shipments by Commodity and Year.</strong><br>
+                    Two commodities exhibit particularly notable trends: Coal and Natural gas. The coal commodity shows a dramatic spike around 2022, surging to nearly 6000 Ktons, before plummeting just as sharply by 2025. Natural gas follows a similar, though less extreme, pattern with a sharp increase and decrease around the same timeframe. In contrast, the commodity of Waste/Scrap and other fossil products displays a steady increase over the entire period, rising gradually from 2018 to just over 5000 Ktons by 2050. The other commodities generally maintain a flat trend with minimal fluctuations in shipment weights. This graph offers insights into the volatile nature of certain commodities like Natural Gas and Coal, contrasting with the steadier growth of Waste/Scrap, highlighting the diverse dynamics within the shipping industry.
+
+
+                <p><em>Figure 3.2 Total Weight of Shipment by Domestic Destination and Year</em></p>
+                <p>
+                    <strong>3.Total weight of shipments by foreign destination and year.</strong><br>
+                    The line representing Europe shows a dramatic spike, with shipment weights soaring to nearly 4000 Ktons around 2022, followed by a rapid decline. A similar, albeit smaller, peak is observed in the shipments to Eastern Asia. In contrast, SW & Central Asia exhibits a steady and significant growth in shipment weights over the period, starting from under 500 Ktons in 2018 and projected to reach over 3500 Ktons by 2050. The other regions, including Europe, Canada, and the Rest of Americas, display relatively stable trends with minor fluctuations over time.
+                </p>
+                <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
+<p>
+                <strong>4.Total weight of shipments by domestic destination and year.</strong><br>
+                A dramatic spike is visible in the data for Maryland, where shipment weights surge to over 10K Ktons around 2022 before plummeting back down and stabilizing at approximately 4K Ktons by 2025, followed by a gradual increase towards 2050. This sharp peak contrasts markedly with the relatively stable trends observed in other states such as New York, Virginia, and Texas, which show modest increases or maintain consistent shipment volumes throughout the period. Most other states remain largely unchanged, with their shipment weights flatlining near the bottom of the graph.
+            </p>
+
+            <p>
+                <strong>5.Total weight of shipments by Domestic Origin and Year</strong><br>
+                The graph features a striking spike in shipments around 2022, where the total weight surges to approximately 12K Ktons, followed by a sharp decline to around 5K Ktons in the subsequent years. After this volatile period, the graph shows a gradual and steady increase in shipment weights from 2025 onwards, climbing back up to just below 10K Ktons by 2050. This pattern suggests a period of intense activity or demand in the early 2020s, followed by stabilization and growth over the long term. 
+            </p>
+            </section>
+            <section>
+                <h3>5.2	MARYLAND AS US Exit Region</h3>
+                <p>
+                    <strong>1.Maryland as US Exit Region O-D FLOW</strong><br>
+                    This map intricately illustrates the extensive reach of Maryland’s transportation and trade links, extending from domestic corridors to pivotal international connections. The network highlighted in purple traces Maryland's engagement with global markets, particularly emphasizing its direct trade routes to key economic centers in Europe and Asia. The visualization demonstrates how Maryland serves as a critical hub in the global supply chain, facilitating a significant volume of international commerce that supports economic growth both locally and globally. This global perspective showcases the state's strategic importance in international logistics, underlining its role in enabling efficient and expansive trade operations.
+ </p>
+Figure 3 4  Maryland as Destination O-D Flow <br>
+
+<p>
+<strong>2. Total Weight of shipments by Domestic Origin and Year</strong><br>
+
+ 
+Figure 3 5 <br>
+
+
+The graph shows significant fluctuations in shipment weights for several states. Maryland experiences a sharp peak around 2022, reaching close to 12K Ktons, before sharply declining and then stabilizing at a lower level. Similarly, Pennsylvania sees a significant rise to over 10K Ktons shortly after 2020, followed by a rapid drop. In contrast, West Virginia (54) exhibits the same trend as Pennsylvania. Other states represented on the graph, such as Ohio, Illinois, and Michigan, show relatively stable shipment weights throughout the forecasted period, indicating less volatility in their shipment activities compared to Maryland and Pennsylvania.
+ </p>
+
+                <p>
+                    <strong>3.Total Weight of Shipments by Commodity and Year</strong><br>
+                    A significant trend is visible in the commodity of Coal (code 15), which experiences a steep decline from approximately 20K Ktons in 2018 to about 10K Ktons by 2025 and continues to decrease steadily thereafter. This downward trend suggests a diminishing reliance on our production of coal over the forecasted period. Another noteworthy trend is observed in the Waste/Scrap commodity (code 41), which shows a brief peak around 2022 before stabilizing. The lines for Natural Gas and other fossil products and Motorized Vehicles (code 36) exhibit gradual decreases, indicating a steady reduction in their shipment weights. Other commodities such as Wood Products, Machinery, and Logs maintain relatively flat trends, suggesting consistent shipment volumes over the years.
+
+ <p>
+    <strong>4. Total Weight of Shipments by Foreign Destination and Year</strong><br>
+    The data reveals significant fluctuations and trends across various global regions. Notably, shipments to Europe show a dramatic spike in 2022, peaking at around 7K Ktons, followed by a sharp decline and stabilization at approximately 4K Ktons by 2025. Eastern Asia exhibits similar but less pronounced spikes around the same time, suggesting a synchronized event or economic condition impacting these regions. Post-2025, the shipments to SW & central Asia display a steady increase, projected to reach close to 8K Ktons by 2050. In contrast, destinations like Canada, Mexico, and other regions such as Africa and Southeast Asia & Oceania show relatively stable trends with minor fluctuations. 
+   </p>
+
+   <p>
+    <strong>5. Total Weight of Shipments by Domestic Destination and Year</strong><br>
+    The graph shows a dramatic decrease from about 25K Ktons in 2018 to around 17K Ktons in 2025, indicating a significant drop in shipment volume during this period. Following this decline, the trend stabilizes and gradually begins to increase after 2030, with the total weight of shipments steadily climbing to approximately 19K Ktons by 2050. This trend suggests a period of adjustment or downturn in the early to mid-2020s, followed by a slow recovery or growth phase as the shipping volume increases toward the mid-21st century. 
+
+
+   </p>
+
+            </section>
+
+
+    
+        </div>
+
+        <div id="import-flows" class="tab-content">
+            <h2>Import Flows</h2>
+            <section>
+                <h3>MARYLAND AS US ENTRY REGION</h3>
+                <p>
+                    <strong>1.Maryland as US Entry Region O-D flow.</strong><br>
+                    This O-D flow illustrates the extensive and interconnected network of Maryland’s global trade routes, emphasizing its role as a crucial nexus within international logistics. The purple lines represent Maryland's far-reaching connections to significant global markets, including key economic regions in Europe, Asia, and South America. This visualization highlights the strategic importance of Maryland in facilitating international commerce, showing how its infrastructure supports a complex web of relationships that span across continents. Such networks underscore Maryland's ability to influence and drive global trade dynamics, making it a central player in the worldwide distribution of goods.
+                </p>
+                <p>
+                    <strong>2.Total Weight of Shipments by Foreign Origin and Year.</strong><br>
+                    The most notable trend is seen in the shipment weights from Europe, which shows a significant upward trajectory, increasing from around 5K Ktons in 2018 to nearly 8K Ktons by 2050. Eastern Asia and the Rest of Americas also display notable growth in shipment volumes, at a slower pace compared to Europe. Eastern Asia's shipments grow from about 2K Ktons to over 4K Ktons, and the Rest of Americas from around 2K Ktons to approximately 5K Ktons by the end of the period. Canada and Mexico show more modest but steady increases, while shipment weights from Africa remain relatively flat throughout the forecast period.
+
+                <p><em>Figure 3.2 Total Weight of Shipment by Domestic Destination and Year</em></p>
+                <p>
+                    <strong>3.Total Weight of Shipments by Domestic Destination and Year</strong><br>
+                    A notable trend in the graph is the significant and consistent increase in shipment weights to Maryland, which shows a steady growth from about 6K Ktons in 2020 to over 14K Ktons by 2050. In sharp contrast, most other states, such as Pennsylvania, New York, and Illinois, along with several others, display relatively flat trends with their shipment weights remaining consistently low, generally under 2K Ktons throughout the forecast period.
+                </p>
+                <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
+<p>
+                <strong>4.Total Weight of Shipments by Commodity and Year.</strong><br>
+                Several commodities exhibit notable trends over this period. For instance, the commodity of Motorized Vehicles shows significant growth, starting from under 1500 Ktons in 2018 and projected to reach nearly 3000 Ktons by 2050. Similarly, Base Metals and Nonmetallic Minerals also display strong upward trajectories, indicating increasing shipment volumes that reflect potentially growing industrial demands or market expansions in these sectors. In contrast, other commodities like Newsprint/Paper and Machinery show more moderate but steady growth. 
+            </p>
+
+        
+            </section>
+            <section>
+                <h3>MARYLAND AS DESTINATION</h3>
+                <p>
+                    <strong>1.Maryland as Domestic Destination O-D Flow</strong><br>
+                    This complex visualization O-D flow maps out Maryland’s expansive influence in global trade through a dense network of routes that connect it to nearly every corner of the world. The purple lines dramatically illustrate how integral Maryland is as a trade conduit, highlighting its connections that stretch across continents to Europe, Asia, Africa, and beyond. These graphic underlines the strategic importance of Maryland’s ports and logistics capabilities, showing its role not only as a national but also as a global hub that facilitates international commerce and fosters economic interconnectedness.
+ </p>
+Figure 3 4  Maryland as Destination O-D Flow <br>
+
+<p>
+<strong>2. Total Weight of Shipments by Foreign Origin and Year</strong><br>
+
+ 
+Figure 3 5 <br>
+
+
+A prominent trend is observed in shipments to Europe which initially experiences a drop in 2020 but then shows a significant and steady rise, increasing from around 3,000 Ktons to nearly 6,000 Ktons by 2050. This suggests a growing demand for our expansion in trade activities within Europe over the period. Shipments to Eastern Asia and the Rest of Americas also depict growth, although more moderate compared to Europe, with Eastern Asia shipments rising above the Rest of Americas by 2050. Canada shows a consistent increase in shipment weight, indicating ongoing industrial or commercial growth. In contrast, other regions like Mexico and Africa show relatively stable and low shipment volumes, suggesting a slower pace of growth or lower levels of trade activity with these regions. 
+ </p>
+
+                <p>
+                    <strong>3.Total Weight of Shipments by Commodity and Year</strong><br>
+                    Several commodities show significant trends over this period. The commodity of Motorized Vehicles and Non-Metals display the most dramatic increases, with Motorized Vehicles rising from just over 2000 Ktons in 2018 to approaching 1500 Ktons by 2050, and Non-Metals experiencing a similar sharp decrease. 
+<br>
+                    The commodity Base metal show a steady increase from 1000 Ktons to over 2500 Ktons by 2050. The commodity of Wood prod also shows notable growth, with some volatility in the early years before stabilizing and increasing steadily. Conversely, commodities like Natural gas show minimal changes in shipment volumes, reflecting stable or declining demand in these sectors. 
+
+
+ <p>
+    <strong>4.Total weight of Shipments by Domestic origin and Year</strong><br>
+    The graph highlights a significant upward trend for shipments to Maryland, which shows a steady increase from approximately 6K Ktons in 2020 to around 14K Ktons by 2050.In contrast, most other states such as New York, Texas, and Virginia maintain relatively stable shipment weights over the years, with minimal fluctuations. These states hover around the lower range, mostly staying under 2K Ktons throughout the period, indicating a steady but limited demand compared to Maryland. 
+   </p>
+
+   
+
+            </section>
+
+
+    
+        </div>
     </div>
     <footer>
         <p>&copy; 2024 Maryland Transportation Study</p>
