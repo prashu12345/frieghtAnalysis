@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipment Flows</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -125,7 +126,40 @@ nav a:hover {
                     <strong>2. Total Weight of Shipment by Domestic Destination and Year</strong><br>
                     Maryland shows a significant increase in shipment weight, rising steadily from around 100 Ktons in 2018 to over 200 Ktons by 2050. In contrast, the other states represented on the graph—Virginia, Pennsylvania, Delaware, and others—display relatively stable shipment weights throughout the forecasted period, mostly hovering around or under 50 Ktons.
                 </p>
-                <p><em>Figure 3.2 Total Weight of Shipment by Domestic Destination and Year</em></p>
+                 
+    <!-- Figure 3 5: Add a container for the chart -->
+    <p><strong>Figure 3 5</strong> <br></p>
+    <div id="figure-3-5" style="width: 100%; height: 600px;">
+        <!-- Chart will be rendered here -->
+    </div>
+    
+    <!-- Add JavaScript to render the chart -->
+    <script>
+        // Fetch the data from the JSON file
+        fetch('./data/chart_data.json')
+            .then(response => response.json())
+            .then(chartData => {
+                const years = chartData.years;
+                const data = chartData.data;
+
+                // Prepare Plotly traces
+                const traces = data.map(item => ({
+                    x: years,
+                    y: item.tons,
+                    mode: 'lines+markers',
+                    name: item.state
+                }));
+
+                // Plot the chart
+                Plotly.newPlot('figure-3-5', traces, {
+                    title: 'Total Weight of Shipments from Maryland to Each State (2017-2050)',
+                    xaxis: { title: 'Year' },
+                    yaxis: { title: 'Total Tons (K)' },
+                    legend: { title: { text: 'Destination State' } }
+                });
+            });
+    </script>
+                
                 <p>
                     <strong>3. Total Weight of Shipments by Commodity and Year</strong><br>
                     “Gravel” shows a pronounced growth, increasing steadily from approximately 30 Ktons in 2018 to over 50 Ktons by 2050. The commodity "Natural Gas and other fossil products" exhibits a sharp fluctuation, peaking around 2022 before stabilizing. Other commodities such as "Nonmetallic Minerals" and "Foodstuffs" display moderate but steady growth throughout the period. Most other commodities maintain relatively consistent shipment weights, indicating stable demand.
@@ -144,7 +178,8 @@ Figure 3 4  Maryland as Destination O-D Flow <br>
 <strong>2.	Total Weight of Shipment by Domestic Origin and Year</strong><br>
 
  
-Figure 3 5 <br>
+
+
 
 
 Among the states Maryland shows a pronounced upward trend, with shipments rising from around 100 Ktons in 2018 to an estimated 200 Ktons by 2050. Pennsylvania and Virginia also exhibit growth, but their increases are more modest compared to Maryland. Most other states, such as West Virginia, Delaware, New Jersey, and several others, maintain a relatively flat line throughout the period, indicating stable shipment weights. 
