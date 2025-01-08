@@ -1,0 +1,2732 @@
+[
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2017,
+    "Total_Tons":931.840321
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2017,
+    "Total_Tons":2019.228815
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2017,
+    "Total_Tons":1309.671347
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2017,
+    "Total_Tons":3671.870713
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2017,
+    "Total_Tons":2237.428812
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2017,
+    "Total_Tons":262.595485
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2017,
+    "Total_Tons":4970.088806
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2017,
+    "Total_Tons":1948.79139
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2017,
+    "Total_Tons":4060.679506
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2017,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2017,
+    "Total_Tons":529.386877
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2017,
+    "Total_Tons":1973.75822
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2017,
+    "Total_Tons":3651.864529
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2017,
+    "Total_Tons":1753.662381
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2017,
+    "Total_Tons":7975.655487
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2017,
+    "Total_Tons":35652.560307
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2017,
+    "Total_Tons":925.932981
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2017,
+    "Total_Tons":2332.359472
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2017,
+    "Total_Tons":1202.59578
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2017,
+    "Total_Tons":795.403855
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2017,
+    "Total_Tons":273.764912
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2017,
+    "Total_Tons":722.525636
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2017,
+    "Total_Tons":929.375452
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2017,
+    "Total_Tons":9830.394596
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2017,
+    "Total_Tons":2278.024693
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2017,
+    "Total_Tons":21623.611956
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2017,
+    "Total_Tons":8789.687802
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2017,
+    "Total_Tons":1888.062198
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2017,
+    "Total_Tons":23667.069317
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2017,
+    "Total_Tons":3994.83605
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2017,
+    "Total_Tons":5254.651054
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2017,
+    "Total_Tons":11051.217343
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2017,
+    "Total_Tons":668.188296
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2017,
+    "Total_Tons":927.587119
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2017,
+    "Total_Tons":2153.910577
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2017,
+    "Total_Tons":55.275155
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2017,
+    "Total_Tons":432.830805
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2017,
+    "Total_Tons":491.825184
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2017,
+    "Total_Tons":8.102473
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2017,
+    "Total_Tons":30.124443
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2017,
+    "Total_Tons":16387.229138
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2017,
+    "Total_Tons":5944.211297
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2018,
+    "Total_Tons":809.329783
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2018,
+    "Total_Tons":1875.366592
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2018,
+    "Total_Tons":1127.188823
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2018,
+    "Total_Tons":3267.58777
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2018,
+    "Total_Tons":2001.752862
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2018,
+    "Total_Tons":244.637901
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2018,
+    "Total_Tons":4779.241299
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2018,
+    "Total_Tons":2191.379291
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2018,
+    "Total_Tons":5252.471831
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2018,
+    "Total_Tons":1.986441
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2018,
+    "Total_Tons":606.765762
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2018,
+    "Total_Tons":1606.987059
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2018,
+    "Total_Tons":3332.211095
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2018,
+    "Total_Tons":1584.13762
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2018,
+    "Total_Tons":8084.060664
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2018,
+    "Total_Tons":33469.299585
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2018,
+    "Total_Tons":962.235294
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2018,
+    "Total_Tons":3428.354695
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2018,
+    "Total_Tons":1602.48511
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2018,
+    "Total_Tons":781.589906
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2018,
+    "Total_Tons":655.195373
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2018,
+    "Total_Tons":703.08222
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2018,
+    "Total_Tons":1027.613814
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2018,
+    "Total_Tons":9988.279536
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2018,
+    "Total_Tons":3868.680045
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2018,
+    "Total_Tons":28743.160615
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2018,
+    "Total_Tons":8873.625433
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2018,
+    "Total_Tons":1713.27569
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2018,
+    "Total_Tons":24849.923645
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2018,
+    "Total_Tons":3586.302067
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2018,
+    "Total_Tons":5109.862738
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2018,
+    "Total_Tons":10150.0663
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2018,
+    "Total_Tons":731.930196
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2018,
+    "Total_Tons":1334.156739
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2018,
+    "Total_Tons":2231.914012
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2018,
+    "Total_Tons":105.888871
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2018,
+    "Total_Tons":591.391672
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2018,
+    "Total_Tons":488.995083
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2018,
+    "Total_Tons":7.75594
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2018,
+    "Total_Tons":127.238065
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2018,
+    "Total_Tons":14601.858129
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2018,
+    "Total_Tons":6053.398097
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2019,
+    "Total_Tons":815.197413
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2019,
+    "Total_Tons":1906.578381
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2019,
+    "Total_Tons":1162.73866
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2019,
+    "Total_Tons":3194.949765
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2019,
+    "Total_Tons":1841.449312
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2019,
+    "Total_Tons":227.869492
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2019,
+    "Total_Tons":4781.888158
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2019,
+    "Total_Tons":2060.023304
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2019,
+    "Total_Tons":5092.050418
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2019,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2019,
+    "Total_Tons":573.450123
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2019,
+    "Total_Tons":1813.327482
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2019,
+    "Total_Tons":3018.000846
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2019,
+    "Total_Tons":1468.778888
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2019,
+    "Total_Tons":8157.227427
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2019,
+    "Total_Tons":36732.489696
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2019,
+    "Total_Tons":1024.04884
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2019,
+    "Total_Tons":3305.89578
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2019,
+    "Total_Tons":1573.18364
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2019,
+    "Total_Tons":810.368512
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2019,
+    "Total_Tons":605.044855
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2019,
+    "Total_Tons":723.466922
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2019,
+    "Total_Tons":1016.464163
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2019,
+    "Total_Tons":9825.533889
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2019,
+    "Total_Tons":3837.187154
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2019,
+    "Total_Tons":34390.472436
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2019,
+    "Total_Tons":7711.974573
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2019,
+    "Total_Tons":1776.579536
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2019,
+    "Total_Tons":25276.738839
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2019,
+    "Total_Tons":3303.220261
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2019,
+    "Total_Tons":4591.25278
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2019,
+    "Total_Tons":10362.443334
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2019,
+    "Total_Tons":725.02666
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2019,
+    "Total_Tons":1334.708007
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2019,
+    "Total_Tons":2219.97132
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2019,
+    "Total_Tons":101.06849
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2019,
+    "Total_Tons":573.461589
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2019,
+    "Total_Tons":481.294886
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2019,
+    "Total_Tons":7.509841
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2019,
+    "Total_Tons":143.116784
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2019,
+    "Total_Tons":14592.140634
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2019,
+    "Total_Tons":6054.290104
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2020,
+    "Total_Tons":916.528363
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2020,
+    "Total_Tons":1922.541103
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2020,
+    "Total_Tons":1113.912654
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2020,
+    "Total_Tons":2575.926911
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2020,
+    "Total_Tons":1712.639623
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2020,
+    "Total_Tons":217.955915
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2020,
+    "Total_Tons":4806.849351
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2020,
+    "Total_Tons":1823.648688
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2020,
+    "Total_Tons":4261.131927
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2020,
+    "Total_Tons":1.112134
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2020,
+    "Total_Tons":602.959761
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2020,
+    "Total_Tons":1787.032341
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2020,
+    "Total_Tons":2495.78051
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2020,
+    "Total_Tons":1336.700827
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2020,
+    "Total_Tons":6784.176419
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2020,
+    "Total_Tons":35395.624081
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2020,
+    "Total_Tons":933.281036
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2020,
+    "Total_Tons":3059.626245
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2020,
+    "Total_Tons":1339.601308
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2020,
+    "Total_Tons":865.713795
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2020,
+    "Total_Tons":228.313443
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2020,
+    "Total_Tons":741.801435
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2020,
+    "Total_Tons":986.819256
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2020,
+    "Total_Tons":9767.907937
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2020,
+    "Total_Tons":3498.175017
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2020,
+    "Total_Tons":36327.599319
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2020,
+    "Total_Tons":7732.975471
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2020,
+    "Total_Tons":1716.693695
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2020,
+    "Total_Tons":25040.533506
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2020,
+    "Total_Tons":3350.04872
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2020,
+    "Total_Tons":4299.301667
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2020,
+    "Total_Tons":10633.316511
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2020,
+    "Total_Tons":738.433877
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2020,
+    "Total_Tons":1366.586386
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2020,
+    "Total_Tons":2190.164404
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2020,
+    "Total_Tons":115.355008
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2020,
+    "Total_Tons":553.282138
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2020,
+    "Total_Tons":440.055969
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2020,
+    "Total_Tons":7.796677
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2020,
+    "Total_Tons":131.741471
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2020,
+    "Total_Tons":14580.590349
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2020,
+    "Total_Tons":6151.091903
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2021,
+    "Total_Tons":918.587637
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2021,
+    "Total_Tons":1862.461718
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2021,
+    "Total_Tons":1013.430152
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2021,
+    "Total_Tons":2266.156803
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2021,
+    "Total_Tons":1823.040604
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2021,
+    "Total_Tons":208.91097
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2021,
+    "Total_Tons":5675.298341
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2021,
+    "Total_Tons":1854.200903
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2021,
+    "Total_Tons":7880.837723
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2021,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2021,
+    "Total_Tons":555.011743
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2021,
+    "Total_Tons":1938.840357
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2021,
+    "Total_Tons":2484.871033
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2021,
+    "Total_Tons":1257.071342
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2021,
+    "Total_Tons":7610.0593
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2021,
+    "Total_Tons":39945.288238
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2021,
+    "Total_Tons":1089.418347
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2021,
+    "Total_Tons":2385.408808
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2021,
+    "Total_Tons":1513.881159
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2021,
+    "Total_Tons":842.158105
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2021,
+    "Total_Tons":362.131188
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2021,
+    "Total_Tons":726.806697
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2021,
+    "Total_Tons":914.639474
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2021,
+    "Total_Tons":9786.58518
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2021,
+    "Total_Tons":3636.432976
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2021,
+    "Total_Tons":38185.980763
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2021,
+    "Total_Tons":8237.682125
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2021,
+    "Total_Tons":1972.367223
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2021,
+    "Total_Tons":25190.021794
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2021,
+    "Total_Tons":3636.262774
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2021,
+    "Total_Tons":4575.880907
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2021,
+    "Total_Tons":10357.812354
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2021,
+    "Total_Tons":743.534837
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2021,
+    "Total_Tons":1217.435443
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2021,
+    "Total_Tons":1923.657681
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2021,
+    "Total_Tons":90.060166
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2021,
+    "Total_Tons":580.0493
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2021,
+    "Total_Tons":430.533613
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2021,
+    "Total_Tons":7.322558
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2021,
+    "Total_Tons":225.339492
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2021,
+    "Total_Tons":14891.194957
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2021,
+    "Total_Tons":6373.726783
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2022,
+    "Total_Tons":846.51954
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2022,
+    "Total_Tons":1871.420287
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2022,
+    "Total_Tons":978.360057
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2022,
+    "Total_Tons":2949.100788
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2022,
+    "Total_Tons":1888.992343
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2022,
+    "Total_Tons":226.01669
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2022,
+    "Total_Tons":4863.585254
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2022,
+    "Total_Tons":1850.722692
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2022,
+    "Total_Tons":10361.558173
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2022,
+    "Total_Tons":0.004546
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2022,
+    "Total_Tons":611.541568
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2022,
+    "Total_Tons":1402.592107
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2022,
+    "Total_Tons":2710.497908
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2022,
+    "Total_Tons":1309.858691
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2022,
+    "Total_Tons":7753.281638
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2022,
+    "Total_Tons":33222.690439
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2022,
+    "Total_Tons":1128.029746
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2022,
+    "Total_Tons":2585.736384
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2022,
+    "Total_Tons":1764.481912
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2022,
+    "Total_Tons":859.926291
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2022,
+    "Total_Tons":731.383189
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2022,
+    "Total_Tons":731.121387
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2022,
+    "Total_Tons":888.467488
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2022,
+    "Total_Tons":9563.779247
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2022,
+    "Total_Tons":4177.570733
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2022,
+    "Total_Tons":36883.108706
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2022,
+    "Total_Tons":6694.321117
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2022,
+    "Total_Tons":2079.769802
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2022,
+    "Total_Tons":24919.806102
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2022,
+    "Total_Tons":3350.795679
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2022,
+    "Total_Tons":4151.730051
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2022,
+    "Total_Tons":10351.040522
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2022,
+    "Total_Tons":738.000792
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2022,
+    "Total_Tons":1144.661983
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2022,
+    "Total_Tons":2028.114473
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2022,
+    "Total_Tons":95.006543
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2022,
+    "Total_Tons":547.34037
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2022,
+    "Total_Tons":463.754708
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2022,
+    "Total_Tons":6.813024
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2022,
+    "Total_Tons":197.083034
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2022,
+    "Total_Tons":14947.604098
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2022,
+    "Total_Tons":6395.608621
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2023,
+    "Total_Tons":809.713582
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2023,
+    "Total_Tons":1913.454032
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2023,
+    "Total_Tons":989.532505
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2023,
+    "Total_Tons":3064.812052
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2023,
+    "Total_Tons":2075.177343
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2023,
+    "Total_Tons":208.08978
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2023,
+    "Total_Tons":6214.679925
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2023,
+    "Total_Tons":1788.427789
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2023,
+    "Total_Tons":10046.007753
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2023,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2023,
+    "Total_Tons":595.237263
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2023,
+    "Total_Tons":1702.016574
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2023,
+    "Total_Tons":3031.943827
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2023,
+    "Total_Tons":1208.343578
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2023,
+    "Total_Tons":7806.051488
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2023,
+    "Total_Tons":30279.202424
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2023,
+    "Total_Tons":1116.339708
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2023,
+    "Total_Tons":2886.247891
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2023,
+    "Total_Tons":1819.170958
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2023,
+    "Total_Tons":843.524534
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2023,
+    "Total_Tons":858.712859
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2023,
+    "Total_Tons":740.074
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2023,
+    "Total_Tons":825.046469
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2023,
+    "Total_Tons":9636.760962
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2023,
+    "Total_Tons":4334.179822
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2023,
+    "Total_Tons":36199.1621
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2023,
+    "Total_Tons":5738.101785
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2023,
+    "Total_Tons":1878.414508
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2023,
+    "Total_Tons":23611.667701
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2023,
+    "Total_Tons":3306.751224
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2023,
+    "Total_Tons":4669.837705
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2023,
+    "Total_Tons":10543.873396
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2023,
+    "Total_Tons":681.269295
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2023,
+    "Total_Tons":1150.096977
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2023,
+    "Total_Tons":2097.447242
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2023,
+    "Total_Tons":83.494415
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2023,
+    "Total_Tons":639.251942
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2023,
+    "Total_Tons":414.00676
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2023,
+    "Total_Tons":6.124526
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2023,
+    "Total_Tons":189.53613
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2023,
+    "Total_Tons":14986.134565
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2023,
+    "Total_Tons":6868.898899
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2025,
+    "Total_Tons":1120.396967
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2025,
+    "Total_Tons":2236.153815
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2025,
+    "Total_Tons":1444.870023
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2025,
+    "Total_Tons":3850.210702
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2025,
+    "Total_Tons":2995.535316
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2025,
+    "Total_Tons":284.687276
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2025,
+    "Total_Tons":4201.712766
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2025,
+    "Total_Tons":2435.967078
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2025,
+    "Total_Tons":1983.931349
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2025,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2025,
+    "Total_Tons":632.656845
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2025,
+    "Total_Tons":2666.027207
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2025,
+    "Total_Tons":3624.330598
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2025,
+    "Total_Tons":2037.528661
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2025,
+    "Total_Tons":7241.425576
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2025,
+    "Total_Tons":39345.823122
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2025,
+    "Total_Tons":1170.299237
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2025,
+    "Total_Tons":2535.009637
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2025,
+    "Total_Tons":1409.975261
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2025,
+    "Total_Tons":1019.20795
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2025,
+    "Total_Tons":424.778024
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2025,
+    "Total_Tons":841.252265
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2025,
+    "Total_Tons":1311.12309
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2025,
+    "Total_Tons":10717.968788
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2025,
+    "Total_Tons":2840.185404
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2025,
+    "Total_Tons":26115.178987
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2025,
+    "Total_Tons":10495.581952
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2025,
+    "Total_Tons":1894.911089
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2025,
+    "Total_Tons":24327.474753
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2025,
+    "Total_Tons":4530.278555
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2025,
+    "Total_Tons":4591.136621
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2025,
+    "Total_Tons":12168.674607
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2025,
+    "Total_Tons":751.103077
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2025,
+    "Total_Tons":1235.954998
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2025,
+    "Total_Tons":2842.580594
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2025,
+    "Total_Tons":71.313049
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2025,
+    "Total_Tons":428.094156
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2025,
+    "Total_Tons":612.367521
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2025,
+    "Total_Tons":7.279067
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2025,
+    "Total_Tons":37.201772
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2025,
+    "Total_Tons":14789.044155
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2025,
+    "Total_Tons":6914.042738
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2030,
+    "Total_Tons":1256.486807
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2030,
+    "Total_Tons":2307.297234
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2030,
+    "Total_Tons":1549.642019
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2030,
+    "Total_Tons":4334.402084
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2030,
+    "Total_Tons":3387.105068
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2030,
+    "Total_Tons":303.64791
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2030,
+    "Total_Tons":4378.476999
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2030,
+    "Total_Tons":2716.271556
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2030,
+    "Total_Tons":1186.377462
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2030,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2030,
+    "Total_Tons":705.130467
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2030,
+    "Total_Tons":3085.67095
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2030,
+    "Total_Tons":3570.679513
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2030,
+    "Total_Tons":2274.011211
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2030,
+    "Total_Tons":6690.170536
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2030,
+    "Total_Tons":42161.261798
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2030,
+    "Total_Tons":1436.804962
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2030,
+    "Total_Tons":2795.035291
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2030,
+    "Total_Tons":1593.202154
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2030,
+    "Total_Tons":1102.805593
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2030,
+    "Total_Tons":491.744857
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2030,
+    "Total_Tons":933.548286
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2030,
+    "Total_Tons":1492.033764
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2030,
+    "Total_Tons":11825.502035
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2030,
+    "Total_Tons":3242.336444
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2030,
+    "Total_Tons":27526.943083
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2030,
+    "Total_Tons":11330.53217
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2030,
+    "Total_Tons":1988.502375
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2030,
+    "Total_Tons":25489.513379
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2030,
+    "Total_Tons":4982.090655
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2030,
+    "Total_Tons":4788.682754
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2030,
+    "Total_Tons":12881.583939
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2030,
+    "Total_Tons":793.698669
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2030,
+    "Total_Tons":1479.515162
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2030,
+    "Total_Tons":3280.613422
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2030,
+    "Total_Tons":79.231114
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2030,
+    "Total_Tons":417.146429
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2030,
+    "Total_Tons":681.111013
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2030,
+    "Total_Tons":6.736606
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2030,
+    "Total_Tons":42.40493
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2030,
+    "Total_Tons":15392.653926
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2030,
+    "Total_Tons":7663.446031
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2035,
+    "Total_Tons":1393.036455
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2035,
+    "Total_Tons":2447.470188
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2035,
+    "Total_Tons":1633.296508
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2035,
+    "Total_Tons":4509.144487
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2035,
+    "Total_Tons":3897.752298
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2035,
+    "Total_Tons":326.321813
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2035,
+    "Total_Tons":4594.578789
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2035,
+    "Total_Tons":3099.841393
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2035,
+    "Total_Tons":870.338855
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2035,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2035,
+    "Total_Tons":788.988813
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2035,
+    "Total_Tons":3585.166609
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2035,
+    "Total_Tons":3567.813551
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2035,
+    "Total_Tons":2550.046175
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2035,
+    "Total_Tons":6384.75603
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2035,
+    "Total_Tons":43666.361282
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2035,
+    "Total_Tons":1744.56966
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2035,
+    "Total_Tons":3145.968639
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2035,
+    "Total_Tons":1771.408996
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2035,
+    "Total_Tons":1230.009453
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2035,
+    "Total_Tons":579.465289
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2035,
+    "Total_Tons":1037.849835
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2035,
+    "Total_Tons":1693.204477
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2035,
+    "Total_Tons":13025.374615
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2035,
+    "Total_Tons":3656.590831
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2035,
+    "Total_Tons":29306.798144
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2035,
+    "Total_Tons":12025.770392
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2035,
+    "Total_Tons":2074.109661
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2035,
+    "Total_Tons":27240.621159
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2035,
+    "Total_Tons":5397.045657
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2035,
+    "Total_Tons":5031.116078
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2035,
+    "Total_Tons":13815.473293
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2035,
+    "Total_Tons":846.626192
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2035,
+    "Total_Tons":1763.064403
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2035,
+    "Total_Tons":3773.629555
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2035,
+    "Total_Tons":88.456592
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2035,
+    "Total_Tons":418.197291
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2035,
+    "Total_Tons":768.861037
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2035,
+    "Total_Tons":6.714178
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2035,
+    "Total_Tons":47.062507
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2035,
+    "Total_Tons":16232.606767
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2035,
+    "Total_Tons":8615.00064
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2040,
+    "Total_Tons":1537.553433
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2040,
+    "Total_Tons":2546.071918
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2040,
+    "Total_Tons":1798.246017
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2040,
+    "Total_Tons":5035.688493
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2040,
+    "Total_Tons":4511.914732
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2040,
+    "Total_Tons":350.435529
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2040,
+    "Total_Tons":4645.700841
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2040,
+    "Total_Tons":3539.545279
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2040,
+    "Total_Tons":718.909502
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2040,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2040,
+    "Total_Tons":887.501
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2040,
+    "Total_Tons":4168.148275
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2040,
+    "Total_Tons":3576.533281
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2040,
+    "Total_Tons":2882.682352
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2040,
+    "Total_Tons":6107.526464
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2040,
+    "Total_Tons":46225.450494
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2040,
+    "Total_Tons":2062.213642
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2040,
+    "Total_Tons":3509.107672
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2040,
+    "Total_Tons":1971.023338
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2040,
+    "Total_Tons":1335.066285
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2040,
+    "Total_Tons":600.106586
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2040,
+    "Total_Tons":1155.160111
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2040,
+    "Total_Tons":1950.009156
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2040,
+    "Total_Tons":14308.848488
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2040,
+    "Total_Tons":4130.40996
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2040,
+    "Total_Tons":31184.252169
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2040,
+    "Total_Tons":12685.043642
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2040,
+    "Total_Tons":2187.746931
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2040,
+    "Total_Tons":29607.272976
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2040,
+    "Total_Tons":5951.243244
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2040,
+    "Total_Tons":5206.028122
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2040,
+    "Total_Tons":14824.572244
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2040,
+    "Total_Tons":902.185337
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2040,
+    "Total_Tons":2100.493329
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2040,
+    "Total_Tons":4340.045999
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2040,
+    "Total_Tons":99.39949
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2040,
+    "Total_Tons":421.822596
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2040,
+    "Total_Tons":874.277356
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2040,
+    "Total_Tons":7.092992
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2040,
+    "Total_Tons":52.302089
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2040,
+    "Total_Tons":17393.857067
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2040,
+    "Total_Tons":9662.612491
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2045,
+    "Total_Tons":1700.621307
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2045,
+    "Total_Tons":2734.570011
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2045,
+    "Total_Tons":1989.466797
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2045,
+    "Total_Tons":5536.622977
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2045,
+    "Total_Tons":5269.34842
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2045,
+    "Total_Tons":363.312863
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2045,
+    "Total_Tons":4688.338102
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2045,
+    "Total_Tons":4089.648862
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2045,
+    "Total_Tons":648.234297
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2045,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2045,
+    "Total_Tons":991.758425
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2045,
+    "Total_Tons":4853.066979
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2045,
+    "Total_Tons":3598.913975
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2045,
+    "Total_Tons":3261.079997
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2045,
+    "Total_Tons":5821.226454
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2045,
+    "Total_Tons":51085.272804
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2045,
+    "Total_Tons":2328.853775
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2045,
+    "Total_Tons":3703.222077
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2045,
+    "Total_Tons":2206.347544
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2045,
+    "Total_Tons":1423.526337
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2045,
+    "Total_Tons":715.588724
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2045,
+    "Total_Tons":1282.513909
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2045,
+    "Total_Tons":2260.309655
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2045,
+    "Total_Tons":15975.185717
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2045,
+    "Total_Tons":4671.101315
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2045,
+    "Total_Tons":32886.552362
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2045,
+    "Total_Tons":13401.867295
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2045,
+    "Total_Tons":2363.673718
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2045,
+    "Total_Tons":32404.12267
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2045,
+    "Total_Tons":6686.655951
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2045,
+    "Total_Tons":5329.784241
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2045,
+    "Total_Tons":15954.389754
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2045,
+    "Total_Tons":969.105336
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2045,
+    "Total_Tons":2503.880049
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2045,
+    "Total_Tons":4999.944186
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2045,
+    "Total_Tons":111.779419
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2045,
+    "Total_Tons":434.740486
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2045,
+    "Total_Tons":992.663035
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2045,
+    "Total_Tons":7.528674
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2045,
+    "Total_Tons":58.579348
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2045,
+    "Total_Tons":18903.544407
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2045,
+    "Total_Tons":10827.443191
+  },
+  {
+    "Commodity":"Alcoholic beverages",
+    "Year":2050,
+    "Total_Tons":1881.606156
+  },
+  {
+    "Commodity":"Animal feed",
+    "Year":2050,
+    "Total_Tons":2962.668582
+  },
+  {
+    "Commodity":"Articles-base metal",
+    "Year":2050,
+    "Total_Tons":2181.834522
+  },
+  {
+    "Commodity":"Base metals",
+    "Year":2050,
+    "Total_Tons":6091.242171
+  },
+  {
+    "Commodity":"Basic chemicals",
+    "Year":2050,
+    "Total_Tons":6019.02094
+  },
+  {
+    "Commodity":"Building stone",
+    "Year":2050,
+    "Total_Tons":380.591532
+  },
+  {
+    "Commodity":"Cereal grains",
+    "Year":2050,
+    "Total_Tons":4703.134389
+  },
+  {
+    "Commodity":"Chemical prods.",
+    "Year":2050,
+    "Total_Tons":4590.308469
+  },
+  {
+    "Commodity":"Coal",
+    "Year":2050,
+    "Total_Tons":671.260487
+  },
+  {
+    "Commodity":"Crude petroleum",
+    "Year":2050,
+    "Total_Tons":0.0
+  },
+  {
+    "Commodity":"Electronics",
+    "Year":2050,
+    "Total_Tons":1120.416439
+  },
+  {
+    "Commodity":"Fertilizers",
+    "Year":2050,
+    "Total_Tons":5578.79968
+  },
+  {
+    "Commodity":"Fuel oils",
+    "Year":2050,
+    "Total_Tons":3653.342379
+  },
+  {
+    "Commodity":"Furniture",
+    "Year":2050,
+    "Total_Tons":3682.629271
+  },
+  {
+    "Commodity":"Gasoline",
+    "Year":2050,
+    "Total_Tons":5575.63116
+  },
+  {
+    "Commodity":"Gravel",
+    "Year":2050,
+    "Total_Tons":56172.746399
+  },
+  {
+    "Commodity":"Live animals\/fish",
+    "Year":2050,
+    "Total_Tons":2559.594891
+  },
+  {
+    "Commodity":"Logs",
+    "Year":2050,
+    "Total_Tons":3799.246669
+  },
+  {
+    "Commodity":"Machinery",
+    "Year":2050,
+    "Total_Tons":2472.904214
+  },
+  {
+    "Commodity":"Meat\/seafood",
+    "Year":2050,
+    "Total_Tons":1561.104701
+  },
+  {
+    "Commodity":"Metallic ores",
+    "Year":2050,
+    "Total_Tons":727.513059
+  },
+  {
+    "Commodity":"Milled grain prods.",
+    "Year":2050,
+    "Total_Tons":1439.60156
+  },
+  {
+    "Commodity":"Misc. mfg. prods.",
+    "Year":2050,
+    "Total_Tons":2573.392408
+  },
+  {
+    "Commodity":"Mixed freight",
+    "Year":2050,
+    "Total_Tons":17621.07016
+  },
+  {
+    "Commodity":"Motorized vehicles",
+    "Year":2050,
+    "Total_Tons":5301.517529
+  },
+  {
+    "Commodity":"Natural gas and other fossil products",
+    "Year":2050,
+    "Total_Tons":35488.217753
+  },
+  {
+    "Commodity":"Natural sands",
+    "Year":2050,
+    "Total_Tons":14185.736983
+  },
+  {
+    "Commodity":"Newsprint\/paper",
+    "Year":2050,
+    "Total_Tons":2518.579491
+  },
+  {
+    "Commodity":"Nonmetal min. prods.",
+    "Year":2050,
+    "Total_Tons":35402.979114
+  },
+  {
+    "Commodity":"Nonmetallic minerals",
+    "Year":2050,
+    "Total_Tons":7534.137492
+  },
+  {
+    "Commodity":"Other ag prods.",
+    "Year":2050,
+    "Total_Tons":5486.105929
+  },
+  {
+    "Commodity":"Other foodstuffs",
+    "Year":2050,
+    "Total_Tons":17238.397362
+  },
+  {
+    "Commodity":"Paper articles",
+    "Year":2050,
+    "Total_Tons":1044.751946
+  },
+  {
+    "Commodity":"Pharmaceuticals",
+    "Year":2050,
+    "Total_Tons":2968.677836
+  },
+  {
+    "Commodity":"Plastics\/rubber",
+    "Year":2050,
+    "Total_Tons":5744.429212
+  },
+  {
+    "Commodity":"Precision instruments",
+    "Year":2050,
+    "Total_Tons":126.088857
+  },
+  {
+    "Commodity":"Printed prods.",
+    "Year":2050,
+    "Total_Tons":445.074728
+  },
+  {
+    "Commodity":"Textiles\/leather",
+    "Year":2050,
+    "Total_Tons":1121.431128
+  },
+  {
+    "Commodity":"Tobacco prods.",
+    "Year":2050,
+    "Total_Tons":8.259544
+  },
+  {
+    "Commodity":"Transport equip.",
+    "Year":2050,
+    "Total_Tons":65.363425
+  },
+  {
+    "Commodity":"Waste\/scrap",
+    "Year":2050,
+    "Total_Tons":20591.187883
+  },
+  {
+    "Commodity":"Wood prods.",
+    "Year":2050,
+    "Total_Tons":12138.433246
+  }
+]
