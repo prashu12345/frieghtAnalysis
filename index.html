@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipment Flows</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -127,43 +128,20 @@ nav a:hover {
                     Maryland shows a significant increase in shipment weight, rising steadily from around 100 Ktons in 2018 to over 200 Ktons by 2050. In contrast, the other states represented on the graph—Virginia, Pennsylvania, Delaware, and others—display relatively stable shipment weights throughout the forecasted period, mostly hovering around or under 50 Ktons.
                 </p>
                  
-    <!-- Figure 3 5: Add a container for the chart -->
-    <p><strong>Figure 3 5</strong> <br></p>
-    <div id="figure-3-5" style="width: 100%; height: 600px;">
-        <!-- Chart will be rendered here -->
-    </div>
+     <div id="chart1" style="width: 100%; height: 600px;"></div>
+            <p>This chart illustrates the total weight of shipments originating from Maryland to various states across the U.S. from 2017 to 2050. It highlights the growth trends and key destinations over the years.</p>
     
-    <!-- Add JavaScript to render the chart -->
-    <script>
-        // Fetch the data from the JSON file
-        fetch('./data/chart_data.json')
-            .then(response => response.json())
-            .then(chartData => {
-                const years = chartData.years;
-                const data = chartData.data;
-
-                // Prepare Plotly traces
-                const traces = data.map(item => ({
-                    x: years,
-                    y: item.tons,
-                    mode: 'lines+markers',
-                    name: item.state
-                }));
-
-                // Plot the chart
-                Plotly.newPlot('figure-3-5', traces, {
-                    title: 'Total Weight of Shipments from Maryland to Each State (2017-2050)',
-                    xaxis: { title: 'Year' },
-                    yaxis: { title: 'Total Tons (K)' },
-                    legend: { title: { text: 'Destination State' } }
-                });
-            });
-    </script>
+   
                 
                 <p>
                     <strong>3. Total Weight of Shipments by Commodity and Year</strong><br>
                     “Gravel” shows a pronounced growth, increasing steadily from approximately 30 Ktons in 2018 to over 50 Ktons by 2050. The commodity "Natural Gas and other fossil products" exhibits a sharp fluctuation, peaking around 2022 before stabilizing. Other commodities such as "Nonmetallic Minerals" and "Foodstuffs" display moderate but steady growth throughout the period. Most other commodities maintain relatively consistent shipment weights, indicating stable demand.
                 </p>
+
+
+                <h3>Chart 2: Total Weight of Shipments from Maryland by Commodity (2017-2050)</h3>
+            <div id="chart2" style="width: 100%; height: 600px;"></div>
+            <p>This chart presents the total weight of shipments from Maryland categorized by commodity types over the period from 2017 to 2050, showcasing the distribution and changes in commodity shipments.</p>
                 <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
             </section>
             <section>
@@ -172,7 +150,9 @@ nav a:hover {
                     <strong>1.	Maryland as Destination O-D FLOW</strong><br>
 This map presents a detailed visualization of key trade routes emanating from Maryland, highlighting its strategic role in the domestic shipping infrastructure of the United States. The prominent orange lines trace the most significant routes linking Maryland to critical economic centers and ports along both the East and West Coasts, illustrating the state's vital contributions to the national logistics network. The concentration of routes in the eastern region underscores Maryland's connectivity and importance in facilitating commerce between the eastern seaboard and broader national markets.
  </p>
-Figure 3 4  Maryland as Destination O-D Flow <br>
+<br>
+<div id="chart3" style="width: 100%; height: 600px;"></div>
+<p>This chart displays the total weight of shipments destined for Maryland from each state between 2017 and 2050, emphasizing the primary sources of inbound shipments.</p>
 
 <p>
 <strong>2.	Total Weight of Shipment by Domestic Origin and Year</strong><br>
@@ -184,7 +164,9 @@ Figure 3 4  Maryland as Destination O-D Flow <br>
 
 Among the states Maryland shows a pronounced upward trend, with shipments rising from around 100 Ktons in 2018 to an estimated 200 Ktons by 2050. Pennsylvania and Virginia also exhibit growth, but their increases are more modest compared to Maryland. Most other states, such as West Virginia, Delaware, New Jersey, and several others, maintain a relatively flat line throughout the period, indicating stable shipment weights. 
  </p>
-Figure 3 6 Total Weight of Shipment by Commodity and Year <br>
+<br>
+<div id="chart4" style="width: 100%; height: 600px;"></div>
+<p>This chart depicts the total weight of shipments received by Maryland, broken down by commodity types from 2017 to 2050, highlighting the variety and volume of goods over time.</p>
 
 It highlights the growth trends in various commodities, with significant growth observed in "Gravel” and "Natural Gas and other fossil products" which both show a steep increase over the projected period. "Gravel" starts at approximately 35 Ktons in 2018 and reaches about 55 Ktons by 2050, while "Natural Gas" shows a rise from around 30 Ktons to nearly 40 Ktons. Coal is the only commodity that has the Negative trend where it decreased from 25Ktons to 10 Ktons. Other commodities such as "Nonmetallic minerals" also exhibit growth but at a more moderate pace. Conversely, most other product commodities maintain relatively stable shipment weights throughout the forecast period. 
 
@@ -207,11 +189,14 @@ It highlights the growth trends in various commodities, with significant growth 
                     <strong>2.Total weight of Shipments by Commodity and Year</strong><br>
                     Gravel commodity exhibits a strong upward trend, rising from approximately 30 Ktons in 2018 to over 50 Ktons by 2050. In contrast, most other commodities such as Natural gas, Wood Products, Gasoline, and Cereal Grains remain relatively stable throughout the forecast period. 
                 </p>
+                <div id="chart5" style="width: 100%; height: 600px;"></div>
+                
                 <p><em>Figure 3.2 Total Weight of Shipment by Domestic Destination and Year</em></p>
                 <p>
                     <strong>3.Total Weight of shipments of Domestic destination and Year</strong><br>
                     The graph shows a significant upward trend for Maryland, which begins at about 100 Ktons in 2018 and rises steadily to reach nearly 180 Ktons by 2050. In stark contrast, most other states such as Virginia, Pennsylvania and Delaware maintain relatively flat shipment weights throughout the forecast period, all staying below 30 Ktons. 
                 </p>
+                <div id="chart6" style="width: 100%; height: 600px;"></div>
                 <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
             </section>
             <section>
@@ -226,7 +211,7 @@ Figure 3 4  Maryland as Destination O-D Flow <br>
 <strong>2. Total Weight of Shipments by Commodity and Year</strong><br>
 
  
-Figure 3 5 <br>
+<div id="chart7" style="width: 100%; height: 600px;"></div>
 
 
 The most prominent trends are seen in the categories of Gravel, Natural Gas and other fossil products, and Nonmetallic Mineral Products, which all show significant increases over the period. Gravel displays the steepest growth, starting from approximately 20K Ktons in 2010 and rising to about 60K Ktons by 2050. Natural Gas and other fossil products also show a substantial upward trajectory, growing from around 10K Ktons to approximately 50K Ktons in the same period. Nonmetallic Mineral Products follow a similar growth pattern but with slightly lower volumes, indicating strong and growing demand for these resources.
@@ -234,6 +219,7 @@ The most prominent trends are seen in the categories of Gravel, Natural Gas and 
 Mixed Freight and Other Foodstuffs exhibit moderate growth, while categories such as Waste/Scrap, Natural Sands, and Gasoline maintain relatively steady shipment weights over the years. The remaining categories show minimal fluctuation and maintain lower shipment volumes, suggesting stable but limited demand in these sectors. This graph is a valuable tool for analyzing trends in industrial demand and supply chain dynamics across various sectors over an extended period. </p>
 
 <p>
+    <div id="chart8" style="width: 100%; height: 600px;"></div>
     <strong>3.4.2.3	Total Weight of Shipments by Domestic Origin and Year</strong><br>
     Notably, Maryland shows a significant upward trend, with shipment weights steadily increasing and reaching the highest levels among the states depicted by 2050. Pennsylvania and Virginia also exhibit steady, albeit less dramatic, increases in shipment volumes over the same period. Other states like Delaware, New Jersey, and Ohio maintain relatively flat trajectories with no significant growth in shipment weights.
 
@@ -254,18 +240,19 @@ Mixed Freight and Other Foodstuffs exhibit moderate growth, while categories suc
                 <p>
                     <strong>2. Total weight of shipments by Commodity and Year.</strong><br>
                     Two commodities exhibit particularly notable trends: Coal and Natural gas. The coal commodity shows a dramatic spike around 2022, surging to nearly 6000 Ktons, before plummeting just as sharply by 2025. Natural gas follows a similar, though less extreme, pattern with a sharp increase and decrease around the same timeframe. In contrast, the commodity of Waste/Scrap and other fossil products displays a steady increase over the entire period, rising gradually from 2018 to just over 5000 Ktons by 2050. The other commodities generally maintain a flat trend with minimal fluctuations in shipment weights. This graph offers insights into the volatile nature of certain commodities like Natural Gas and Coal, contrasting with the steadier growth of Waste/Scrap, highlighting the diverse dynamics within the shipping industry.
+                    <div id="chart9" style="width: 100%; height: 600px;"></div>
 
-
-                <p><em>Figure 3.2 Total Weight of Shipment by Domestic Destination and Year</em></p>
+               
                 <p>
                     <strong>3.Total weight of shipments by foreign destination and year.</strong><br>
                     The line representing Europe shows a dramatic spike, with shipment weights soaring to nearly 4000 Ktons around 2022, followed by a rapid decline. A similar, albeit smaller, peak is observed in the shipments to Eastern Asia. In contrast, SW & Central Asia exhibits a steady and significant growth in shipment weights over the period, starting from under 500 Ktons in 2018 and projected to reach over 3500 Ktons by 2050. The other regions, including Europe, Canada, and the Rest of Americas, display relatively stable trends with minor fluctuations over time.
                 </p>
-                <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
+                
 <p>
                 <strong>4.Total weight of shipments by domestic destination and year.</strong><br>
                 A dramatic spike is visible in the data for Maryland, where shipment weights surge to over 10K Ktons around 2022 before plummeting back down and stabilizing at approximately 4K Ktons by 2025, followed by a gradual increase towards 2050. This sharp peak contrasts markedly with the relatively stable trends observed in other states such as New York, Virginia, and Texas, which show modest increases or maintain consistent shipment volumes throughout the period. Most other states remain largely unchanged, with their shipment weights flatlining near the bottom of the graph.
             </p>
+            <div id="chart10" style="width: 100%; height: 600px;"></div>
 
             <p>
                 <strong>5.Total weight of shipments by Domestic Origin and Year</strong><br>
@@ -283,8 +270,8 @@ Figure 3 4  Maryland as Destination O-D Flow <br>
 <p>
 <strong>2. Total Weight of shipments by Domestic Origin and Year</strong><br>
 
- 
-Figure 3 5 <br>
+<div id="chart11" style="width: 100%; height: 600px;"></div> 
+
 
 
 The graph shows significant fluctuations in shipment weights for several states. Maryland experiences a sharp peak around 2022, reaching close to 12K Ktons, before sharply declining and then stabilizing at a lower level. Similarly, Pennsylvania sees a significant rise to over 10K Ktons shortly after 2020, followed by a rapid drop. In contrast, West Virginia (54) exhibits the same trend as Pennsylvania. Other states represented on the graph, such as Ohio, Illinois, and Michigan, show relatively stable shipment weights throughout the forecasted period, indicating less volatility in their shipment activities compared to Maryland and Pennsylvania.
@@ -293,7 +280,7 @@ The graph shows significant fluctuations in shipment weights for several states.
                 <p>
                     <strong>3.Total Weight of Shipments by Commodity and Year</strong><br>
                     A significant trend is visible in the commodity of Coal (code 15), which experiences a steep decline from approximately 20K Ktons in 2018 to about 10K Ktons by 2025 and continues to decrease steadily thereafter. This downward trend suggests a diminishing reliance on our production of coal over the forecasted period. Another noteworthy trend is observed in the Waste/Scrap commodity (code 41), which shows a brief peak around 2022 before stabilizing. The lines for Natural Gas and other fossil products and Motorized Vehicles (code 36) exhibit gradual decreases, indicating a steady reduction in their shipment weights. Other commodities such as Wood Products, Machinery, and Logs maintain relatively flat trends, suggesting consistent shipment volumes over the years.
-
+                    <div id="chart12" style="width: 100%; height: 600px;"></div>
  <p>
     <strong>4. Total Weight of Shipments by Foreign Destination and Year</strong><br>
     The data reveals significant fluctuations and trends across various global regions. Notably, shipments to Europe show a dramatic spike in 2022, peaking at around 7K Ktons, followed by a sharp decline and stabilization at approximately 4K Ktons by 2025. Eastern Asia exhibits similar but less pronounced spikes around the same time, suggesting a synchronized event or economic condition impacting these regions. Post-2025, the shipments to SW & central Asia display a steady increase, projected to reach close to 8K Ktons by 2050. In contrast, destinations like Canada, Mexico, and other regions such as Africa and Southeast Asia & Oceania show relatively stable trends with minor fluctuations. 
@@ -324,16 +311,18 @@ The graph shows significant fluctuations in shipment weights for several states.
                     <strong>2.Total Weight of Shipments by Foreign Origin and Year.</strong><br>
                     The most notable trend is seen in the shipment weights from Europe, which shows a significant upward trajectory, increasing from around 5K Ktons in 2018 to nearly 8K Ktons by 2050. Eastern Asia and the Rest of Americas also display notable growth in shipment volumes, at a slower pace compared to Europe. Eastern Asia's shipments grow from about 2K Ktons to over 4K Ktons, and the Rest of Americas from around 2K Ktons to approximately 5K Ktons by the end of the period. Canada and Mexico show more modest but steady increases, while shipment weights from Africa remain relatively flat throughout the forecast period.
 
-                <p><em>Figure 3.2 Total Weight of Shipment by Domestic Destination and Year</em></p>
+                
                 <p>
                     <strong>3.Total Weight of Shipments by Domestic Destination and Year</strong><br>
                     A notable trend in the graph is the significant and consistent increase in shipment weights to Maryland, which shows a steady growth from about 6K Ktons in 2020 to over 14K Ktons by 2050. In sharp contrast, most other states, such as Pennsylvania, New York, and Illinois, along with several others, display relatively flat trends with their shipment weights remaining consistently low, generally under 2K Ktons throughout the forecast period.
+                    <div id="chart13" style="width: 100%; height: 600px;"></div>
                 </p>
                 <p><em>Figure 3.3 Total Weight of Shipments by Commodity and Year</em></p>
 <p>
                 <strong>4.Total Weight of Shipments by Commodity and Year.</strong><br>
                 Several commodities exhibit notable trends over this period. For instance, the commodity of Motorized Vehicles shows significant growth, starting from under 1500 Ktons in 2018 and projected to reach nearly 3000 Ktons by 2050. Similarly, Base Metals and Nonmetallic Minerals also display strong upward trajectories, indicating increasing shipment volumes that reflect potentially growing industrial demands or market expansions in these sectors. In contrast, other commodities like Newsprint/Paper and Machinery show more moderate but steady growth. 
             </p>
+            <div id="chart14" style="width: 100%; height: 600px;"></div>
 
         
             </section>
@@ -360,12 +349,13 @@ A prominent trend is observed in shipments to Europe which initially experiences
                     Several commodities show significant trends over this period. The commodity of Motorized Vehicles and Non-Metals display the most dramatic increases, with Motorized Vehicles rising from just over 2000 Ktons in 2018 to approaching 1500 Ktons by 2050, and Non-Metals experiencing a similar sharp decrease. 
 <br>
                     The commodity Base metal show a steady increase from 1000 Ktons to over 2500 Ktons by 2050. The commodity of Wood prod also shows notable growth, with some volatility in the early years before stabilizing and increasing steadily. Conversely, commodities like Natural gas show minimal changes in shipment volumes, reflecting stable or declining demand in these sectors. 
-
+                    <div id="chart15" style="width: 100%; height: 600px;"></div>
 
  <p>
     <strong>4.Total weight of Shipments by Domestic origin and Year</strong><br>
     The graph highlights a significant upward trend for shipments to Maryland, which shows a steady increase from approximately 6K Ktons in 2020 to around 14K Ktons by 2050.In contrast, most other states such as New York, Texas, and Virginia maintain relatively stable shipment weights over the years, with minimal fluctuations. These states hover around the lower range, mostly staying under 2K Ktons throughout the period, indicating a steady but limited demand compared to Maryland. 
    </p>
+   <div id="chart16" style="width: 100%; height: 600px;"></div>
 
    
 
@@ -378,5 +368,184 @@ A prominent trend is observed in shipments to Europe which initially experiences
     <footer>
         <p>&copy; 2024 Maryland Transportation Study</p>
     </footer>
+    <script>
+        // Function to fetch data and render a chart
+        function renderChart(jsonPath, chartId, xKey, yKey, nameKey, title, yAxisTitle) {
+            fetch(jsonPath)
+                .then(response => response.json())
+                .then(data => {
+                    const uniqueNames = [...new Set(data.map(item => item[nameKey]))];
+                    const traces = uniqueNames.map(name => {
+                        const filteredData = data.filter(item => item[nameKey] === name);
+                        return {
+                            x: filteredData.map(item => item[xKey]),
+                            y: filteredData.map(item => item[yKey]),
+                            mode: 'lines+markers',
+                            name: name
+                        };
+                    });
+                    const layout = {
+                        title: title,
+                        xaxis: { title: 'Year' },
+                        yaxis: { title: yAxisTitle },
+                        legend: { title: { text: nameKey.replace(/_/g, ' ') } }
+                    };
+                    Plotly.newPlot(chartId, traces, layout);
+                })
+                .catch(error => console.error(`Error fetching or processing data for ${chartId}:`, error));
+        }
+
+        // Render all charts
+        renderChart(
+            './data/maryland_origin_destinations.json',
+            'chart1',
+            'Year',
+            'Total_Tons',
+            'Destination_State',
+            'Total Weight of Shipments from Maryland to Each State (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_origin_commodities.json',
+            'chart2',
+            'Year',
+            'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments from Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_destination_origins.json',
+            'chart3',
+            'Year',
+            'Total_Tons',
+            'Origin_State',
+            'Total Weight of Shipments to Maryland from Each State (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_destination_commodities.json',
+            'chart4',
+            'Year',
+            'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments to Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+
+        renderChart(
+            './data/maryland_origin_commodities_domestic.json',
+            'chart5',
+            'Year',
+           'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments from Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+
+        renderChart(
+            './data/maryland_origin_destinations_domestic.json',
+            'chart6',
+            'Year',
+            'Total_Tons',
+            'Destination_State',
+            'Total Weight of Shipments from Maryland to Each State (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_destination_commodities_domestic.json',
+            'chart7',
+            'Year',
+            'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments to Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_destination_origins_domestic.json',
+            'chart8',
+            'Year',
+            'Total_Tons',
+            'Origin_State',
+            'Total Weight of Shipments to Maryland from Each State(2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_origin_commodities_export.json',
+            'chart9',
+            'Year',
+            'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments from Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+
+        renderChart(
+            './data/maryland_origin_destinations_export.json',
+            'chart10',
+            'Year',
+            'Total_Tons',
+            'Destination_State',
+            'Total Weight of Shipments from Maryland to Each State (2017-2050)',
+            'Total Tons (K)'
+        );
+       
+        renderChart(
+            './data/maryland_destination_origins_export.json',
+            'chart11',
+            'Year',
+            'Total_Tons',
+            'Origin_State',
+            'Total Weight of Shipments to Maryland from Each State (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_destination_commodities_export.json',
+            'chart12',
+            'Year',
+            'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments to Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+
+        renderChart(
+            './data/maryland_origin_destinations_import.json',
+            'chart13',
+            'Year',
+            'Total_Tons',
+            'Destination_State',
+            'Total Weight of Shipments from Maryland to Each State (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_origin_commodities_import.json',
+            'chart14',
+            'Year',
+            'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments from Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_destination_commodities_import.json',
+            'chart15',
+            'Year',
+            'Total_Tons',
+            'Commodity',
+            'Total Weight of Shipments to Maryland by Commodity (2017-2050)',
+            'Total Tons (K)'
+        );
+        renderChart(
+            './data/maryland_destination_origins_import.json',
+            'chart16',
+            'Year',
+            'Total_Tons',
+            'Origin_State',
+            'Total Weight of Shipments to Maryland from Each State (2017-2050)',
+            'Total Tons (K)'
+        );
+        
+    </script>
 </body>
 </html>
